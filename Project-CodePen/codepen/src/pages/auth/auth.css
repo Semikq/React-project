@@ -1,0 +1,73 @@
+.mainAuth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAuth{
+    height: 400px;
+    width: 350px;
+    background-color: #3F3F3F;
+    border-radius: 30px;
+    border: solid 1px white;
+}
+
+.registerAndLogin{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.registerAndLogin .choice{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    border-bottom: solid 1px white;
+}
+
+.lineAuth{
+    height: 25px;
+    border: solid 1px white;
+}
+
+.registerAndLogin h2{
+    font-size: 35px;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.registerAndLogin .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+}
+
+.registerAndLogin .form input{
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.registerAndLogin .form button{
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.profile{
+    margin: 20px;
+    background-color: #3F3F3F;
+    box-sizing: content-box;
+    border-radius: 15px;
+    padding: 5px 25px 25px 25px;
+    border: 3px solid v;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(223, 221, 221);
+    height: 140px;
+}
+
+.profileHeader .userInfo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(223, 221, 221);
+}
+
+.profileHeader .profileImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ListLike{
+    width: 100%;
+}
+
+.ListSnippets{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.ListSnippets h1{
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+    color: rgb(223, 221, 221);
+}
+
+.ListSnippets .profileSnippets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px 0;
+    flex: 1;
+}

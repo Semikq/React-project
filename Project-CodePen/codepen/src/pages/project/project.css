@@ -1,0 +1,126 @@
+.containerProject{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nameProject {
+    font-size: 25px;
+    width: fit-content;
+    margin: 10px auto;
+    color: white;
+    background-color: #3F3F3F;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    flex: 100%;
+    height: 420px;
+    text-align: right;
+}
+
+.contentArea h2 {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #3F3F3F;
+    color: #aaaebc;
+    padding: 4px 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.contentArea h2 span {
+    display: inline-block;
+    transform: translateY(2px);
+}
+
+.contentArea textarea {
+    resize: none;
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: #3F3F3F;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px 1px #3F3F3F;
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.contentArea textarea:focus{
+    outline: none;
+}
+
+.centerIframeContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.containerIframeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+    max-width: 1700px;
+    width: 100%;
+}
+
+.iframeContent {
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 4px #3F3F3F;
+}
+
+.iframeContent iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.iframeAttributers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iframeAttributers div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.iframeAttributers p{
+    font-size: 20px;
+}
+/* 
+.AAAA{
+    background-color: red;
+} */
+
+.ace-monokai {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ace-monokai .ace_gutter {
+    background: #3F3F3F; /* Змінює фон лівої панелі з номерами рядків */
+    color: white; /* Змінює колір тексту в панелі з номерами рядків */
+}
+
+.ace-monokai .ace_text-layer {
+    color: #f8f8f2; /* Змінює основний колір тексту */
+}
+
+.ace-monokai .ace_cursor {
+    border-left: 2px solid #f8f8f0; /* Змінює колір курсора */
+}

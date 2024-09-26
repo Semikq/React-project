@@ -1,0 +1,101 @@
+body{
+  background-color: gray;
+}
+
+.burgerMenu{
+  position: relative;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid white;
+  margin-top: 5px;
+  margin-left: 28px;
+  position: absolute;
+}
+
+.ListMenu{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: #3F3F3F;
+  margin-left: 5px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  top: 20px;
+  border: solid 2px white;
+}
+
+.attributesAuth {
+  color: #FAFAFA;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  padding: 5px;
+  margin-top: 8px;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: #FAFAFA;
+  bottom: -7px;
+  opacity: 0;
+  right: 50%;
+  transition: opacity 0.3s;
+  transform: translateX(50%);
+}
+
+.line:hover::after {
+  opacity: 1;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Центрування по вертикалі на всю висоту вікна */
+}
+
+.codePen {
+  font-size: 70px;
+  text-align: center;
+  top: 90px;
+  position: absolute; /* Залишаємо заголовок на місці без зміщення інших елементів */
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 45px;
+  width: 100%;
+  background-color: #3F3F3F;
+  color: white;
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

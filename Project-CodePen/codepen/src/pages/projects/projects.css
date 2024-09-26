@@ -1,0 +1,76 @@
+.containerSnippets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    height: 100vh;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.projectCart{
+    background-color: #3F3F3F;
+    height: 300px;
+    border: solid 1px white;
+    border-radius: 25px;
+    box-shadow: -8px 8px 10px 0px #3F3F3F;
+    transition: transform 0.2s;
+    flex: 1 1 275px;
+    max-width: 315px;
+    min-width: 235px;
+}
+
+.projectCart:hover{
+    transform: scale(1.05)
+}
+
+.projectCart h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 25px;
+    color: rgb(240, 240, 240);
+}
+
+.description{
+    font-size: 15px;
+    margin-top: 5px;
+    height: 65px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(240, 240, 240);
+}
+
+.userContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    color: rgb(240, 240, 240);
+}
+
+.avatar {
+    position: relative;
+    bottom: 10px;
+    border: solid 2px transparent;
+    transition: all 0.1s;
+}
+
+.avatar:hover {
+    border-color: black;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

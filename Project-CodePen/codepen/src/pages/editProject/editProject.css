@@ -1,0 +1,70 @@
+.editNameProject {
+    height: 30px;
+    background: none;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 175px;
+    color: white;
+    padding-left: 5px;
+}
+
+.editNameProject:focus {
+    outline: none;
+}
+
+.contDescription{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+}
+
+.contDescription div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contDescription div:nth-child(1){
+    text-align: left;
+    height: 100%;
+}
+
+.contDescription div:nth-child(1) h2{
+    background-color: #3F3F3F;
+    padding: 10px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    width: 104px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.contDescription div:nth-child(1) textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #3F3F3F;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.contDescription div:nth-child(1) textarea:focus{
+    outline: none;
+}
+
+.contDescription div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contDescription div:nth-child(2) Button{
+    width: 200px;
+}
